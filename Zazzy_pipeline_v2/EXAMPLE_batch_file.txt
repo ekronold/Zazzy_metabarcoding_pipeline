@@ -1,0 +1,1 @@
+[NAME OF YOUR R1 SEQUENCE FILE]_R1.fastq.gz	[NAME OF YOUR R2 SEQUENCE FILE]_R2.fastq.gz	VT_map_FWD.fasta	VT_map_REV.fasta
