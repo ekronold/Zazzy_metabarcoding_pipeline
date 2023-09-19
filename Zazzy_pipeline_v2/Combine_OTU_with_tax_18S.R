@@ -2,6 +2,7 @@ library(tidyverse)
 library(openxlsx)
 
 OTU <- read.xlsx("OTU_table_lulu_curated.xlsx")
+colnames(OTU)[1] <- "OTUid"
 
 Tax_raw <- read.table("Taxonomy_sintax_18S.txt", fill = T)
 
