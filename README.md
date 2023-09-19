@@ -1,7 +1,7 @@
 # Zazzy_metabarcoding_pipeline
 Pipeline for analysing ITS and 18S amplicon data used in Oslo Mycology Group
 
-UPDATED PIPELINE FOR OSLO MYCOLOGY GROUP
+UPDATED PIPELINE FOR OSLO MYCOLOGY GROUP (Kauserud Group)
 BY: Eivind Kverme Ronold - 26 June 2023
 LAST EDIT: 8 September 2023
 Everything you need for the complete pipeline is IN THIS FOLDER
