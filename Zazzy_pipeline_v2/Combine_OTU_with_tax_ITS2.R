@@ -32,13 +32,13 @@ Tax_raw2 <- Tax_raw2 %>% mutate(Kingdom_support = gsub("[)]", '', Kingdom_suppor
                                 Genus_support = gsub("[)]", '', Genus_support),
                                 Species_support = gsub("[)]", '', Species_support))
 
-Tax1 <- Tax_raw2 %>% select(c("OTUId","Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
+Tax1 <- Tax_raw2 %>% select(c("OTUid","Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"))
 Tax2 <- Tax_raw2 %>% select(c("Kingdom_support", "Phylum_support", "Class_support", "Order_support", "Family_support", "Genus_support", "Species_support"))
 Tax3 <- Tax_raw2 %>% select(c("Strand", "Tax_above_threshold"))
 
 Tax <- cbind(Tax1, Tax2, Tax3)
 
-OTU_with_taxonomy <- left_join(OTU, Tax, by = "OTUId")
+OTU_with_taxonomy <- left_join(OTU, Tax, by = "OTUid")
 
 write.table(OTU_with_taxonomy, "OTU_with_taxonomy_ITS2.txt", sep = "\t")
 
