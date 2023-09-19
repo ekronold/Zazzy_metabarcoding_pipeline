@@ -1,4 +1,4 @@
-SETTING VARIABLES
+#SETTING VARIABLES
 VSEARCH=$(which vsearch)
 SPLITS=40
 mkdir uncut_fasta
