@@ -5,7 +5,7 @@ OTU <- read.xlsx("OTU_table_lulu_curated.xlsx")
 
 Tax_raw <- read.table("Taxonomy_sintax_ITS2.txt", fill = T)
 
-colnames(Tax_raw) <- c("OTUId", "Taxonomy", "Strand", "Tax_above_threshold")
+colnames(Tax_raw) <- c("OTUid", "Taxonomy", "Strand", "Tax_above_threshold")
 
 Tax_raw1 <- Tax_raw %>% separate(Taxonomy, c("Kingdom", "Phylum", "Class", "Order", "Family", "Genus", "Species"), sep = "[,]")
 
