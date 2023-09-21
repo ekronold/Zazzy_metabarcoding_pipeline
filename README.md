@@ -65,6 +65,7 @@ Run slurm_script_2_runDADA2_for_SWARM.sh, this step takes a long time
 ------Denoised sequences are given unique sha1-hash names.
 ------These hashes are unique PER SEQUENCE, so the same sequence in different samples will have the same hash
 ------This is required in order to cluster using SWARM in the next steps and has no impact on how VSEARCH runs
+------Remember to look at the quality profile for your sequences and trim the ends if neccessary (done by adding trimRight=[number] in the filterandtrim function)
 
 
 STEP 4 - Clean up sequences with ITSx before clustering ONLY WHEN WORKING WITH ITS AMPLICONS
