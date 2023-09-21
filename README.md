@@ -8,6 +8,8 @@ Everything you need for the complete pipeline is IN THIS FOLDER
 
 It is best to copy (cp) this entire folder into your own work area since you will be setting your own names on mapping and input/output files
 Runs in a unix environment with R, python and perl dependencies
+All software is opensource and available through bioconda
+Change the approritate module loading and such in the scripts if running in a personal conda environment
 
 Run the scripts in sequence. Demultiplexing and denoising takes quite a some time to run thorugh
 
